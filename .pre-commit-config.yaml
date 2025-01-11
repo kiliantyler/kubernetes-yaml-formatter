@@ -36,7 +36,7 @@ repos:
     args: [-c=.yamllint]
 
 - repo: https://github.com/pre-commit/mirrors-eslint
-  rev: v9.5.0
+  rev: v9.18.0
   hooks:
   - id: eslint
     files: \.[jt]sx?$ # *.js, *.jsx, *.ts and *.tsx
